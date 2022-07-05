@@ -1,0 +1,83 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .add-todo input {
+  height: 40px;
+  width: 250px;
+  border: 1px solid lightgray;
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
+}
+
+.container .add-todo .btn-add {
+  height: 40px;
+  border: none;
+  background-color: dodgerblue;
+  color: #fff;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.container .list-todo {
+  width: 400px;
+  height: auto;
+}
+
+.container .list-todo .todo-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  background-color: #f1f1f1;
+  padding: 0 15px 0 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.container .list-todo .todo-item span {
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.container .list-todo .todo-item img {
+  cursor: pointer;
+}
+
+.container .list-todo .checked {
+  background-color: green !important;
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=main.css.map */
